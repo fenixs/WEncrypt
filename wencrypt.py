@@ -94,9 +94,9 @@ while(True):
             oPwd = pwd_skey[0]
             sKey = pwd_skey[1]
         enPwd = WEncode(oPwd,sKey)
-        print "加密结果:" + enPwd+ "\n"
+        print "Result:" + enPwd+ "\n"
         oPwd1= WDecode(enPwd,sKey)
-        print "原字符:" + oPwd1
+        print "Origin:" + oPwd1
 
 #1234567890abcdefghijklmnopqrstuvwxyz
 
